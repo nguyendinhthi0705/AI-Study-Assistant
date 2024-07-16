@@ -10,7 +10,8 @@ uploaded_file = st.file_uploader("Upload Your Lecture in PDF")
 docs = []
 
 st.markdown("Ask me anything as below samples:") 
-st.markdown("Summary the lecture") 
+st.markdown("Summary the financial report of Amazon") 
+st.markdown("Thẻ có những chức năng gì") 
 
 input_text = st.text_input("Your question!") 
 if uploaded_file is not None and input_text:
